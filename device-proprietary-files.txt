@@ -13,6 +13,16 @@ etc/cne/Nexus/VZW/VZW_profiles.xml
 -priv-app/HotwordEnrollmentWCD9335/HotwordEnrollmentWCD9335.apk:priv-app/HotwordEnrollmentWCD9335/HotwordEnrollmentWCD9335.apk:PRESIGNED
 
 # IMS/HD Voice
+lib/lib-imsvideocodec.so
+lib/lib-imsvt.so
+lib/lib-imsvtextutils.so
+lib/lib-imsvtutils.so
+lib/librcc.so
+lib64/lib-imsvideocodec.so
+lib64/lib-imsvt.so
+lib64/lib-imsvtextutils.so
+lib64/lib-imsvtutils.so
+lib64/librcc.so
 -priv-app/CNEService/CNEService.apk
 
 # Permissions
