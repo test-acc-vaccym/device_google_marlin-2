@@ -19,6 +19,7 @@ etc/cne/Nexus/VZW/VZW_profiles.xml
 -priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk;PRESIGNED
 
 # IMS/HD Voice
+-app/ims/ims.apk
 lib/lib-imsvideocodec.so
 lib/lib-imsvt.so
 lib/lib-imsvtextutils.so
@@ -36,11 +37,15 @@ etc/permissions/privapp-permissions-google.xml
 etc/permissions/privapp-permissions-marlin.xml
 
 # RIL
+-framework/qcrilhook.jar
+lib64/vendor.qti.atcmdfwd@1.0.so
+lib64/vendor.qti.qcril.am@1.0.so
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 lib64/vendor.qti.atcmdfwd@1.0.so
 lib64/vendor.qti.qcril.am@1.0.so
 
 # Sprint/Project Fi
+-app/Tycho/Tycho.apk;PRESIGNED
 etc/permissions/com.android.omadm.service.xml
 etc/permissions/com.android.sdm.plugins.connmo.xml
 etc/permissions/com.android.sdm.plugins.sprintdm.xml
@@ -48,7 +53,6 @@ etc/permissions/obdm_permissions.xml
 etc/sysconfig/whitelist_com.android.omadm.service.xml
 lib/libdmengine.so
 lib/libdmjavaplugin.so
--app/Tycho/Tycho.apk;PRESIGNED
 -priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
 -priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 -priv-app/ConnMO/ConnMO.apk
