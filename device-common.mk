@@ -605,6 +605,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
 
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager.xml \
+    com.android.ims.rcsmanager \
+    RcsService \
+    PresencePolling
+
 # b/32109329
 # Workaround for audio glitches
 PRODUCT_PROPERTY_OVERRIDES += \
