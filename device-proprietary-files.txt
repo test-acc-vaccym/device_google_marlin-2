@@ -29,6 +29,7 @@ lib64/lib-imsvideocodec.so
 lib64/lib-imsvt.so
 lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so
+lib64/libimsmedia_jni.so
 lib64/librcc.so
 -priv-app/CNEService/CNEService.apk
 
