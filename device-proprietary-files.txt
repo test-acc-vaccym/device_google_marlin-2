@@ -69,6 +69,7 @@ lib/libdmjavaplugin.so
 
 # Sysconfig
 etc/sysconfig/nexus.xml
+etc/sysconfig/pixel_2016_exclusive.xml
 
 # VZW
 -app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
