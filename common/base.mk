@@ -635,23 +635,16 @@ FSTMAN += fstman.ini
 
 PRODUCT_PACKAGES := \
     AccountAndSyncSettings \
-    DeskClock \
     AlarmProvider \
     Bluetooth \
-    Calendar \
     Camera \
     CellBroadcastReceiver \
     CertInstaller \
     DrmProvider \
-    Email \
-	ExactCalculator \
-    Gallery2 \
     LatinIME \
     Mms \
-    Music \
     Phone \
     Provision \
-    QuickSearchBox \
     Settings \
     Sync \
     SystemUI \
