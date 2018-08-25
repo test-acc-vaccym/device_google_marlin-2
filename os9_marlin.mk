@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common os9 stuff.
-$(call inherit-product, vendor/os9/configs/common_full_phone.mk)
+$(call inherit-product, vendor/os9/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
